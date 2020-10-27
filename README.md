@@ -13,9 +13,9 @@ You can select between the following sorts:
   * Cycle Sort
 
 
-![Screenshot](sortVisualizer.png)
-![Screenshot](sort.png)
-![Screenshot](sortComplete.png)
+![Screenshot](images/sortVisualizer.png)
+![Screenshot](images/sort.png)
+![Screenshot](images/sortComplete.png)
 
 
 References:
