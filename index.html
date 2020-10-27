@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+                
+                <!-- Bootstrap CSS -->
+                <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <title>Sort Visualizer</title>
+    </head>
+    <!-- html Body -->
+    <body style="background-color:white">
+        <!-- nav bar-->
+        <ul class="nav nav-fill">
+            <li class="nav-item">
+                <a class="nav-link active" onClick="setup()">Reset</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" onClick="start()">Start</a>
+            </li>
+            <li class="nav-item">
+                <select class="custom-select text-primary" id="algoSelector">
+                    <option selected>Sorting Algorithms:</option>
+                    <option value="0">Bubble Sort</option>
+                    <option value="1">Insertion Sort</option>
+                    <option value="2">Selection Sort</option>
+                    <option value="3">Radix Sort</option>
+                    <option value="4">Shell Sort</option>
+                    <option value="5">Cycle Sort</option>
+
+                </select>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active">Swaps/Comparisons:</a><output id="count" class="text-primary"></output>
+            </li>
+            <li class="nav-item"><center>
+                <form>
+                    <div class="form-group">
+                        <label for="formControlRange" class="text-primary">Array Length</label>
+                        <input type="range" class="form-control-range" id="arrayControlRange" min="10" max="250" value="50" step="1"><output id="sliderOutput" class="text-primary"></output>
+                            </div>
+                </form></center>
+            </li>
+        </ul>
+        <!-- nav bar ends-->
+
+        <h1 class="display-1 text-primary" align="center" id="heading">Sort Visualizer</h1>
+        <!-- Optional JavaScript -->
+        <script src="https://cdn.jsdelivr.net/npm/p5@1.1.9/lib/p5.js"></script>
+        <script src="sketch.js"></script>
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    </body>
+</html>
