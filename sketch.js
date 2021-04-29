@@ -6,7 +6,7 @@ slider.addEventListener('input', setup);
 
 //set up is run at page load
 function setup() {
-    createCanvas(windowWidth-200, windowHeight-400).center();
+    createCanvas(windowWidth-200, windowHeight-500).center();
     count = 0;
     printSlider();
     printSwaps();
