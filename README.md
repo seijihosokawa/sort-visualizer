@@ -5,6 +5,8 @@ All you need to do is select the sort you want to visualize and click start. You
 
 Enjoy, it's quite relaxing!
 
+[Click here to use the tool.](https://seijihosokawa.github.io/sortVisualizer/)
+
 You can select between the following sorts:
   * Bubble Sort
   * Insertion Sort
